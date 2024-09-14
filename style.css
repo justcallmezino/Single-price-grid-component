@@ -8,6 +8,7 @@ html {
 
 body {
   padding: 20px;
+  position: relative;
 }
 
 h2, h4, p {
@@ -19,6 +20,7 @@ h2, h4, p {
 }
 
 #card {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
