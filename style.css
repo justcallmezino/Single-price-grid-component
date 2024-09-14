@@ -28,6 +28,8 @@ h2, h4, p {
 rgba(0,0,0,0.35);
   border-radius: 5px;
   overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 
 #top-section {
