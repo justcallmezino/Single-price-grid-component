@@ -19,6 +19,9 @@ h2, h4, p {
 }
 
 #card {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 2px 3px 7px 0px; 
 rgba(0,0,0,0.35);
   border-radius: 5px;
