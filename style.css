@@ -121,18 +121,9 @@ li {
 }
 
 @media (min-width: 576px) {
-  body {
-    position: relative;
-  }
   #card {
-    position: absolute;
     width: 600px;
     height: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -25%);
-    align-items: center;
-    justify-content: center;
   }
   #bottom-section {
     flex-direction: row;
