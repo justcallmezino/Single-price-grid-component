@@ -8,7 +8,6 @@ html {
 
 body {
   padding: 20px;
-  position: relative;
 }
 
 h2, h4, p {
@@ -20,16 +19,10 @@ h2, h4, p {
 }
 
 #card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   box-shadow: 2px 3px 7px 0px; 
 rgba(0,0,0,0.35);
   border-radius: 5px;
   overflow: hidden;
-  align-items: center;
-  justify-content: center;
 }
 
 #top-section {
@@ -128,9 +121,18 @@ li {
 }
 
 @media (min-width: 576px) {
+  body {
+    position: relative;
+  }
   #card {
     width: 600px;
     height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
   }
   #bottom-section {
     flex-direction: row;
