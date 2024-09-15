@@ -6,8 +6,10 @@ html {
   font-style: normal;
 }
 
-body {
-  padding: 20px;
+body {body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2, h4, p {
@@ -121,6 +123,12 @@ li {
 }
 
 @media (min-width: 576px) {
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  }
   #card {
     width: 600px;
     height: 400px;
