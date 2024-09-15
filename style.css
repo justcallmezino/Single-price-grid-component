@@ -121,6 +121,9 @@ li {
 }
 
 @media (min-width: 576px) {
+  body {
+    place-content: center;
+  }
   #card {
     width: 600px;
     height: 400px;
